@@ -8,7 +8,7 @@ public sealed record ProcessingResultDto
     /// <summary>
     /// Список результатов по каждому набору
     /// </summary>
-    public List<ResultEntryDto> Results { get; init; }
+    public List<string> Results { get; init; }
 
     /// <summary>
     /// Общая сумма всех наборов
