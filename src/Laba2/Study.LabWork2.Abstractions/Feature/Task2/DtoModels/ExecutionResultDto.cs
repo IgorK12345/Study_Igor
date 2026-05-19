@@ -16,14 +16,14 @@ public sealed record ExecutionResultDto<T>
     public TimeSpan TotalExecutionTime { get; init; }
 
     /// <summary>
-    /// Количество успешных запросов (HTTP статус 2xx)
+    /// Успешный запрос (HTTP статус 2xx)
     /// </summary>
-    public int SuccessfulRequests { get; init; }
+    public bool SuccessfulRequest { get; init; }
 
     /// <summary>
-    /// Количество неудачных запросов (ошибки сети, таймауты, HTTP ошибки)
+    /// Неудачный запрос (ошибки сети, таймауты, HTTP ошибки)
     /// </summary>
-    public int FailedRequests { get; init; }
+    public bool FailedRequest { get; init; }
 
     /// <summary>
     /// Версия приложения (синхронная/асинхронная)

@@ -5,6 +5,7 @@
 
 - [AsynchronousServerRequestApp](#T-Study-LabWork2-Feature-Task2-AsynchronousServerRequestApp 'Study.LabWork2.Feature.Task2.AsynchronousServerRequestApp')
   - [ExecuteRequestsAsync\`\`1()](#M-Study-LabWork2-Feature-Task2-AsynchronousServerRequestApp-ExecuteRequestsAsync``1-Study-LabWork2-Abstractions-Feature-Task2-DtoModels-ServerConfigDto[]- 'Study.LabWork2.Feature.Task2.AsynchronousServerRequestApp.ExecuteRequestsAsync``1(Study.LabWork2.Abstractions.Feature.Task2.DtoModels.ServerConfigDto[])')
+- [BasePrimeCounter](#T-Study-LabWork2-Feature-Task1-SubTask1-BasePrimeCounter 'Study.LabWork2.Feature.Task1.SubTask1.BasePrimeCounter')
 - [MonitorService](#T-Study-LabWork2-Feature-Task1-SubTask1-MonitorService 'Study.LabWork2.Feature.Task1.SubTask1.MonitorService')
 - [MutexService](#T-Study-LabWork2-Feature-Task1-SubTask1-MutexService 'Study.LabWork2.Feature.Task1.SubTask1.MutexService')
 - [NumberSetProcessor](#T-Study-LabWork2-Feature-Task1-SubTask2-NumberSetProcessor 'Study.LabWork2.Feature.Task1.SubTask2.NumberSetProcessor')
@@ -32,6 +33,17 @@ Study.LabWork2.Feature.Task2
 ##### Parameters
 
 This method has no parameters.
+
+<a name='T-Study-LabWork2-Feature-Task1-SubTask1-BasePrimeCounter'></a>
+## BasePrimeCounter `type`
+
+##### Namespace
+
+Study.LabWork2.Feature.Task1.SubTask1
+
+##### Summary
+
+Базовый класс с общей логикой для всех счетчиков
 
 <a name='T-Study-LabWork2-Feature-Task1-SubTask1-MonitorService'></a>
 ## MonitorService `type`
