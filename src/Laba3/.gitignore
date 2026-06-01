@@ -1,0 +1,81 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+out/
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.ilk
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.iobj
+*.ipdb
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Rider / IntelliJ
+.idea/
+*.sln.iml
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+## Entity Framework
+*.dbmdl
+*.jfm
+Migrations/
+
+## OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Secrets (NEVER commit!)
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+*.key
+*.pfx
+*.pem
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+*~
